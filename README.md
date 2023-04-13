@@ -27,17 +27,19 @@ Edit this `README.md` file - answer the BLANK questions before moving on to the 
     B. `Chair bench = new Chair(24, true);`  
     C. `var bench = new(24, true);`  
     D. `Chair bench = new(24, true);`  
-    
+    --> C <--
 2. Imagine you are interviewing for your first job.  The interviewer asks "What can you tell me about OOP?".  Write your response below:
-
+OOP is a style of programing where reuseable code is stored inside classes and the Objects made from those classes have all the preset properties and behaviors that were written in the class their based on. This allows for more organized and readable code because when the names of the classes and their behaviors and properties are descriptive of what they do or what their used for a large amount of code can be broken down into a smaller amount of descriptive Object calls. these calls are much less crouded and can be read to be understood.
 
 3. What is Automated Testing?
 
+Automated testing is building a program that tests your main program instead of running it and testing it manualy.
 
 4. What are some benefits of creating tests for our projects?
-
+when you have a large project especialy one that branches it can be really dificult and time consuming to run through every posibility and by creating tests you can automate that task and save time and risk by catching more bugs in a more effective and efficient way.
 
 5. When you create a test project, you do not immediately have access to the class(es) in the project that you are testing.  What do you need to do in order to have access to those classes?
+you have to create a project reference from the testing project to the main project.
 
 6. Take a look at the class below.  Write out the **names** of each test you would write to verify that this class is working.
 ```c#
@@ -71,7 +73,10 @@ Edit this `README.md` file - answer the BLANK questions before moving on to the 
         }
     }
 ```
-
+Constructor_SetsCorrect_NumberOfWheelsAndColor_With0Miles()
+Summary_Presents_CorrectPropertiesAndFormat()
+Drive_SuccssesfullyAdds5Miles()
+Paint_Changes_Color_ToSetNewColor()
 
 
 ## Exercise (8 Points Possible)
